@@ -1,0 +1,33 @@
+{
+  "name": "bishop",
+  "version": "1.0.0",
+  "description": "Application CLI with Node command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "outside": "bin/outside"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amourfrei/bishop.git"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "command",
+    "line."
+  ],
+  "author": "Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amourfrei/bishop/issues"
+  },
+  "homepage": "https://github.com/amourfrei/bishop#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0"
+  }
+}
